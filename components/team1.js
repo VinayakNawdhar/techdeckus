@@ -33,7 +33,7 @@ const Team1 = (props) => {
                         </span>
                       </div>
                       <span className="team1-text14 thq-body-small">
-                        {props.member4Content}
+                        {"I'm incredibly proud of the work you've done. Together, let's keep pushing boundaries and reaching new heights."}
                       </span>
                     </div>
                     <div className="team1-social-icons3">

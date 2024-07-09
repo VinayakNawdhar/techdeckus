@@ -11,32 +11,32 @@ const Logos1 = (props) => {
           <div className="thq-grid-6">
             <img
               alt={props.logo1Alt}
-              src={props.logo1Src}
+              src={'https://static.vecteezy.com/system/resources/previews/022/613/027/original/google-icon-logo-symbol-free-png.png'}
               className="logos1-logo1 thq-img-ratio-16-9"
             />
             <img
               alt={props.logo2Alt}
-              src={props.logo2Src}
+              src={'https://logowik.com/content/uploads/images/fetch-tv6348.jpg'}
               className="logos1-logo2 thq-img-ratio-16-9"
             />
             <img
               alt={props.logo3Alt}
-              src={props.logo3Src}
+              src={'https://download.logo.wine/logo/CBRE_Group/CBRE_Group-Logo.wine.png'}
               className="logos1-logo3 thq-img-ratio-16-9"
             />
             <img
               alt={props.logo4Alt}
-              src={props.logo4Src}
+              src={'https://download.logo.wine/logo/Bank_of_America/Bank_of_America-Logo.wine.png'}
               className="logos1-logo4 thq-img-ratio-16-9"
             />
             <img
               alt={props.logo5Alt}
-              src={props.logo5Src}
+              src={'https://logos-world.net/wp-content/uploads/2021/02/Fidelity-Logo.png'}
               className="logos1-logo5 thq-img-ratio-16-9"
             />
             <img
               alt={props.logo6Alt}
-              src={props.logo6Src}
+              src={'https://companieslogo.com/img/orig/WIT_BIG-0de2dc21.png?t=1720244494'}
               className="logos1-logo6 thq-img-ratio-16-9"
             />
           </div>

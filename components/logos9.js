@@ -29,35 +29,23 @@ const Logos9 = (props) => {
             />
             <img
               alt={props.logo4Alt}
-              src={props.logo4Src}
+              src={'https://download.logo.wine/logo/Bank_of_America/Bank_of_America-Logo.wine.png'}
               className="logos9-logo4 thq-img-ratio-16-9"
             />
             <img
               alt={props.logo5Alt}
-              src={props.logo5Src}
+              src={'https://logos-world.net/wp-content/uploads/2021/02/Fidelity-Logo.png'}
               className="logos9-logo5 thq-img-ratio-16-9"
             />
             <img
               alt={props.logo6Alt}
-              src={props.logo6Src}
+              src={'https://companieslogo.com/img/orig/WIT_BIG-0de2dc21.png?t=1720244494'}
               className="logos9-logo6 thq-img-ratio-16-9"
             />
-          </div>
-          <div className="thq-animated-group-horizontal">
             <img
-              alt={props.logo1Alt}
-              src={props.logo1Src}
-              className="logos9-logo11 thq-img-ratio-16-9"
-            />
-            <img
-              alt={props.logo2Alt}
-              src={props.logo2Src}
-              className="logos9-logo21 thq-img-ratio-16-9"
-            />
-            <img
-              alt={props.logo3Alt}
-              src={props.logo3Src}
-              className="logos9-logo31 thq-img-ratio-16-9"
+              alt={props.logo6Alt}
+              src={'https://download.logo.wine/logo/Capgemini/Capgemini-Logo.wine.png'}
+              className="logos9-logo6 thq-img-ratio-16-9"
             />
           </div>
         </div>
