@@ -6,8 +6,8 @@ const Contact14 = (props) => {
   return (
     <>
       <div className="contact14-contact20 thq-section-padding">
-        <div className="contact14-max-width thq-section-max-width">
-          <div className="contact14-content2">
+        <div className="flex flex-col gap-5 thq-section-max-width text-center lg:flex-row" >
+          <div className="contact14-content2 text-center">
           <svg viewBox="0 0 1024 1024" className="thq-icon-medium">
               <path d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"></path>
             </svg>
