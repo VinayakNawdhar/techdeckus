@@ -1,11 +1,35 @@
-import React from 'react'
-
-import PropTypes from 'prop-types'
+"use client";
+import React, { useState } from "react";
+import axios from 'axios'
+import PropTypes from "prop-types";
+import toast, { Toaster } from 'react-hot-toast';
 
 const ContactForm3 = (props) => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+    if (name && email && message) {
+      const resp = await axios.post("/api/contact-us", {
+        name,
+        email,
+        message,
+      });
+      setName("");
+      setEmail("");
+      setMessage("");
+      if (resp.data.message == "success") {
+        toast.success("Message Sent!");
+      } else {
+        toast.error("Some error occured..");
+      }
+    }
+  };
   return (
     <>
       <div className="contact-form3-contact9 thq-section-padding">
+        <Toaster/>
         <div className="thq-flex-row thq-section-max-width contact-form3-max-width">
           <animate animation="fadeInTopLeft">
             <img
@@ -23,7 +47,7 @@ const ContactForm3 = (props) => {
                 <span className="thq-body-small">{props.content1}</span>
               </div>
             </div>
-            <form className="thq-card">
+            <form className="thq-card" onSubmit={handleSubmit}>
               <div className="contact-form3-input">
                 <label htmlFor="contact-form-3-name" className="thq-body-small">
                   Name
@@ -33,6 +57,11 @@ const ContactForm3 = (props) => {
                   id="contact-form-3-name"
                   placeholder="Name"
                   className="thq-input contact-form3-text-input"
+                  value={name}
+                  onChange={(e) => {
+                    setName(e.target.value);
+                  }}
+                  required="true"
                 />
               </div>
               <div className="contact-form3-input1">
@@ -48,6 +77,10 @@ const ContactForm3 = (props) => {
                   required="true"
                   placeholder="Email"
                   className="thq-input contact-form3-text-input1"
+                  value={email}
+                  onChange={(e) => {
+                    setEmail(e.target.value);
+                  }}
                 />
               </div>
               <div className="contact-form3-container">
@@ -62,22 +95,12 @@ const ContactForm3 = (props) => {
                   rows="3"
                   placeholder="Enter your message"
                   className="thq-input contact-form3-textarea"
-                ></textarea>
-              </div>
-              <div className="contact-form3-checkbox">
-                <input
-                  type="checkbox"
-                  id="contact-form-3-check"
-                  checked="true"
+                  value={message}
+                  onChange={(e) => {
+                    setMessage(e.target.value);
+                  }}
                   required="true"
-                  className="thq-checkbox"
-                />
-                <label
-                  htmlFor="contact-form-3-check"
-                  className="contact-form3-text6 thq-body-small"
-                >
-                  I accept the Terms
-                </label>
+                ></textarea>
               </div>
               <button
                 type="submit"
@@ -218,18 +241,18 @@ const ContactForm3 = (props) => {
         `}
       </style>
     </>
-  )
-}
+  );
+};
 
 ContactForm3.defaultProps = {
   imageSrc:
-    'https://images.unsplash.com/photo-1698349145149-f1e4126f2531?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMDI3NzI1MXw&ixlib=rb-4.0.3&q=80&w=700',
-  content2: 'Get in touch with us',
-  imageAlt: 'Image1',
-  action: 'Submit',
-  heading1: 'Contact us',
-  content1: 'We are delighted to hear from you.',
-}
+    "https://images.unsplash.com/photo-1698349145149-f1e4126f2531?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMDI3NzI1MXw&ixlib=rb-4.0.3&q=80&w=700",
+  content2: "Get in touch with us",
+  imageAlt: "Image1",
+  action: "Submit",
+  heading1: "Contact us",
+  content1: "We are delighted to hear from you.",
+};
 
 ContactForm3.propTypes = {
   imageSrc: PropTypes.string,
@@ -238,6 +261,6 @@ ContactForm3.propTypes = {
   action: PropTypes.string,
   heading1: PropTypes.string,
   content1: PropTypes.string,
-}
+};
 
-export default ContactForm3
+export default ContactForm3;

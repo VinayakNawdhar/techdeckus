@@ -338,8 +338,9 @@
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.thq-link{
-  
+.th-link{
+  font-family: Bricolage Grotesque;
+  font-weight: 400;
 }
 .navbar-links ul{
   display: flex;
@@ -355,7 +356,7 @@
 .navbar-links ul li a{
   text-decoration: none;
   transition: 0.2s ease;
-  font-weight: 400;
+  font-weight: 300;
 }
 .navbar-links ul li::after{
   content: " ";

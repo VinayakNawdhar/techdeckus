@@ -18,6 +18,9 @@ const CTA = (props) => {
                   <button
                     type="button"
                     className="thq-button-filled cta-button"
+                    onClick={() => {
+                      window.location = '/contact'
+                    }}
                   >
                     {props.action1}
                   </button>

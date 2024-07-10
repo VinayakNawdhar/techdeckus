@@ -8,29 +8,31 @@ const Navbar = (props) => {
       <header className={`navbar-container ${props.rootClassName} `}>
         <header data-thq="thq-navbar" className="navbar-navbar-interactive">
           <div data-thq="thq-navbar-nav" className="navbar-desktop-menu">
+            <Link href='/' >
             <img
               alt={props.imageAlt2}
               src={props.imageSrc2}
-              className="navbar-image"
+              className="navbar-image cursor-pointer"
             />
+            </Link>
             <nav className="navbar-links">
               <ul>
-                <li className='text-lg tracking-wider font-["Roboto"]'>
+                <li className='text-xl tracking-wider th-link'>
                 <Link href='/' className=" navbar-link1 thq-body-small thq-link">
                 {props.link1}
               </Link>
                 </li>
-                <li className='text-lg tracking-wider font-["Roboto"]'>
+                <li className='text-xl tracking-wider th-link'>
                 <Link href='/about' className=" navbar-link2 thq-body-small thq-link">
                 {props.link2}
               </Link>
                 </li>
-                <li className='text-lg tracking-wider font-["Roboto"] font-semibold'>
+                <li className='text-xl tracking-wider th-link font-semibold'>
                 <Link href='/contact' className=" navbar-link3 thq-body-small thq-link">
                 {props.link3}
               </Link>
                 </li>
-                <li className='text-lg tracking-wider font-["Roboto"]'>
+                <li className='text-xl tracking-wider th-link'>
                 <Link href='/our-partners' className=" navbar-link4 thq-body-small thq-link">
                 {props.link4}
               </Link>

@@ -19,7 +19,217 @@ const Logos9 = (props) => {
             />
             <img
               alt={props.logo2Alt}
-              src={'https://logowik.com/content/uploads/images/fetch-tv6348.jpg'}
+              src={'https://www.petinsurer.com/img/share_insurer_logo/fetch.png'}
+              className="logos9-logo2 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo3Alt}
+              src={'https://download.logo.wine/logo/CBRE_Group/CBRE_Group-Logo.wine.png'}
+              className="logos9-logo3 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo4Alt}
+              src={'https://download.logo.wine/logo/Bank_of_America/Bank_of_America-Logo.wine.png'}
+              className="logos9-logo4 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo5Alt}
+              src={'https://logos-world.net/wp-content/uploads/2021/02/Fidelity-Logo.png'}
+              className="logos9-logo5 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo6Alt}
+              src={'https://companieslogo.com/img/orig/WIT_BIG-0de2dc21.png?t=1720244494'}
+              className="logos9-logo6 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo6Alt}
+              src={'https://download.logo.wine/logo/Capgemini/Capgemini-Logo.wine.png'}
+              className="logos9-logo6 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo1Alt}
+              src={'https://static.vecteezy.com/system/resources/previews/022/613/027/original/google-icon-logo-symbol-free-png.png'}
+              className="logos9-logo1 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo2Alt}
+              src={'https://www.petinsurer.com/img/share_insurer_logo/fetch.png'}
+              className="logos9-logo2 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo3Alt}
+              src={'https://download.logo.wine/logo/CBRE_Group/CBRE_Group-Logo.wine.png'}
+              className="logos9-logo3 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo4Alt}
+              src={'https://download.logo.wine/logo/Bank_of_America/Bank_of_America-Logo.wine.png'}
+              className="logos9-logo4 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo5Alt}
+              src={'https://logos-world.net/wp-content/uploads/2021/02/Fidelity-Logo.png'}
+              className="logos9-logo5 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo6Alt}
+              src={'https://companieslogo.com/img/orig/WIT_BIG-0de2dc21.png?t=1720244494'}
+              className="logos9-logo6 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo6Alt}
+              src={'https://download.logo.wine/logo/Capgemini/Capgemini-Logo.wine.png'}
+              className="logos9-logo6 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo1Alt}
+              src={'https://static.vecteezy.com/system/resources/previews/022/613/027/original/google-icon-logo-symbol-free-png.png'}
+              className="logos9-logo1 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo2Alt}
+              src={'https://www.petinsurer.com/img/share_insurer_logo/fetch.png'}
+              className="logos9-logo2 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo3Alt}
+              src={'https://download.logo.wine/logo/CBRE_Group/CBRE_Group-Logo.wine.png'}
+              className="logos9-logo3 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo4Alt}
+              src={'https://download.logo.wine/logo/Bank_of_America/Bank_of_America-Logo.wine.png'}
+              className="logos9-logo4 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo5Alt}
+              src={'https://logos-world.net/wp-content/uploads/2021/02/Fidelity-Logo.png'}
+              className="logos9-logo5 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo6Alt}
+              src={'https://companieslogo.com/img/orig/WIT_BIG-0de2dc21.png?t=1720244494'}
+              className="logos9-logo6 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo6Alt}
+              src={'https://download.logo.wine/logo/Capgemini/Capgemini-Logo.wine.png'}
+              className="logos9-logo6 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo1Alt}
+              src={'https://static.vecteezy.com/system/resources/previews/022/613/027/original/google-icon-logo-symbol-free-png.png'}
+              className="logos9-logo1 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo2Alt}
+              src={'https://www.petinsurer.com/img/share_insurer_logo/fetch.png'}
+              className="logos9-logo2 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo3Alt}
+              src={'https://download.logo.wine/logo/CBRE_Group/CBRE_Group-Logo.wine.png'}
+              className="logos9-logo3 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo4Alt}
+              src={'https://download.logo.wine/logo/Bank_of_America/Bank_of_America-Logo.wine.png'}
+              className="logos9-logo4 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo5Alt}
+              src={'https://logos-world.net/wp-content/uploads/2021/02/Fidelity-Logo.png'}
+              className="logos9-logo5 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo6Alt}
+              src={'https://companieslogo.com/img/orig/WIT_BIG-0de2dc21.png?t=1720244494'}
+              className="logos9-logo6 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo6Alt}
+              src={'https://download.logo.wine/logo/Capgemini/Capgemini-Logo.wine.png'}
+              className="logos9-logo6 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo1Alt}
+              src={'https://static.vecteezy.com/system/resources/previews/022/613/027/original/google-icon-logo-symbol-free-png.png'}
+              className="logos9-logo1 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo2Alt}
+              src={'https://www.petinsurer.com/img/share_insurer_logo/fetch.png'}
+              className="logos9-logo2 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo3Alt}
+              src={'https://download.logo.wine/logo/CBRE_Group/CBRE_Group-Logo.wine.png'}
+              className="logos9-logo3 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo4Alt}
+              src={'https://download.logo.wine/logo/Bank_of_America/Bank_of_America-Logo.wine.png'}
+              className="logos9-logo4 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo5Alt}
+              src={'https://logos-world.net/wp-content/uploads/2021/02/Fidelity-Logo.png'}
+              className="logos9-logo5 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo6Alt}
+              src={'https://companieslogo.com/img/orig/WIT_BIG-0de2dc21.png?t=1720244494'}
+              className="logos9-logo6 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo6Alt}
+              src={'https://download.logo.wine/logo/Capgemini/Capgemini-Logo.wine.png'}
+              className="logos9-logo6 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo1Alt}
+              src={'https://static.vecteezy.com/system/resources/previews/022/613/027/original/google-icon-logo-symbol-free-png.png'}
+              className="logos9-logo1 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo2Alt}
+              src={'https://www.petinsurer.com/img/share_insurer_logo/fetch.png'}
+              className="logos9-logo2 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo3Alt}
+              src={'https://download.logo.wine/logo/CBRE_Group/CBRE_Group-Logo.wine.png'}
+              className="logos9-logo3 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo4Alt}
+              src={'https://download.logo.wine/logo/Bank_of_America/Bank_of_America-Logo.wine.png'}
+              className="logos9-logo4 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo5Alt}
+              src={'https://logos-world.net/wp-content/uploads/2021/02/Fidelity-Logo.png'}
+              className="logos9-logo5 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo6Alt}
+              src={'https://companieslogo.com/img/orig/WIT_BIG-0de2dc21.png?t=1720244494'}
+              className="logos9-logo6 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo6Alt}
+              src={'https://download.logo.wine/logo/Capgemini/Capgemini-Logo.wine.png'}
+              className="logos9-logo6 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo1Alt}
+              src={'https://static.vecteezy.com/system/resources/previews/022/613/027/original/google-icon-logo-symbol-free-png.png'}
+              className="logos9-logo1 thq-img-ratio-16-9"
+            />
+            <img
+              alt={props.logo2Alt}
+              src={'https://www.petinsurer.com/img/share_insurer_logo/fetch.png'}
               className="logos9-logo2 thq-img-ratio-16-9"
             />
             <img

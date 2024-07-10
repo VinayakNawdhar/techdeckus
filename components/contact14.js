@@ -234,7 +234,7 @@ Contact14.defaultProps = {
   address1: 'Houston, TX 77027 USA',
   content3:
     'We look forward to hearing from you!',
-  phone1: '+1 (501) 5073466',
+  phone1: '+1 (501) 507 - 3466',
   heading3: 'Phone',
   content1:
     'Any queries? Dont worry send us',

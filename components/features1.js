@@ -1,34 +1,50 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 
-import PropTypes from 'prop-types'
+import PropTypes from "prop-types";
 
 const Features1 = (props) => {
-  const [activeTab, setActiveTab] = useState(0)
+  const [activeTab, setActiveTab] = useState(0);
   return (
     <>
       <div className="thq-section-padding">
         <div className="features1-container1 thq-section-max-width">
           <div className="features1-image-container">
             {activeTab === 0 && (
-              <img
-                alt={props.feature1ImgAlt}
-                src={props.feature1ImgSrc}
-                className="features1-image thq-img-ratio-16-9"
-              />
+              <h1 className="bg-indigo-900 text-lg text-indigo-100 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
+                In today's competitive tech market, finding the perfect IT
+                talent is crucial. Expert IT Recruitment solves that problem.
+                With deep industry knowledge and a vast network, they connect
+                you with top pre-vetted professionals. They handle the entire
+                process, saving you time and resources. Let them build your
+                high-performing IT team. Choose Expert IT Recruitment - your
+                trusted partner in IT recruitment success.
+              </h1>
             )}
             {activeTab === 1 && (
-              <img
-                alt={props.feature2ImgAlt}
-                src={props.feature2ImgSrc}
-                className="features1-image1 thq-img-ratio-16-9"
-              />
+              <h1 className="bg-indigo-900 text-lg text-indigo-100 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
+                The one-size-fits-all approach to recruitment simply doesn't cut
+                it anymore. Tailored Approach understands this. We offer
+                customized recruitment solutions designed to meet your unique
+                needs and company culture. Our experts take the time to
+                understand your specific requirements, desired skillsets, and
+                ideal candidate profile. This ensures we connect you with the
+                perfect talent – not just someone who checks the boxes.
+                Experience the difference a tailored approach can make. Contact
+                us today!
+              </h1>
             )}
             {activeTab === 2 && (
-              <img
-                alt={props.feature3ImgAlt}
-                src={props.feature3ImgSrc}
-                className="features1-image2 thq-img-ratio-16-9"
-              />
+              <h1 className="bg-indigo-900 text-lg text-indigo-100 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
+                We provide unparalleled access to top IT talent. Our rigorous
+                screening process ensures you connect with highly skilled
+                professionals who possess the technical expertise and the drive
+                to excel. Quality Candidates delivers the perfect blend of
+                talent and fit. We understand that cultural alignment is just as
+                important as technical prowess. That's why we go beyond resumes,
+                focusing on finding the individuals who will seamlessly
+                integrate into your team and contribute to your long-term
+                success.
+              </h1>
             )}
           </div>
           <div className="features1-tabs-menu">
@@ -228,26 +244,26 @@ const Features1 = (props) => {
         `}
       </style>
     </>
-  )
-}
+  );
+};
 
 Features1.defaultProps = {
-  feature2Title: 'Tailored Approach',
+  feature2Title: "Tailored Approach",
   feature1ImgSrc:
-    'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMDE4OTkyM3w&ixlib=rb-4.0.3&q=80&w=1080',
-  feature2ImgAlt: 'Customized Solutions Image',
-  feature3Description: 'Access to top IT talent',
+    "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMDE4OTkyM3w&ixlib=rb-4.0.3&q=80&w=1080",
+  feature2ImgAlt: "Customized Solutions Image",
+  feature3Description: "Access to top IT talent",
   feature2ImgSrc:
-    'https://images.unsplash.com/photo-1487088678257-3a541e6e3922?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMDE4OTkyNHw&ixlib=rb-4.0.3&q=80&w=1080',
-  feature1ImgAlt: 'Professional IT Recruiter',
-  feature2Description: 'Customized recruitment solutions',
-  feature1Title: 'Expert IT Recruitment',
+    "https://images.unsplash.com/photo-1487088678257-3a541e6e3922?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMDE4OTkyNHw&ixlib=rb-4.0.3&q=80&w=1080",
+  feature1ImgAlt: "Professional IT Recruiter",
+  feature2Description: "Customized recruitment solutions",
+  feature1Title: "Expert IT Recruitment",
   feature3ImgSrc:
-    'https://images.unsplash.com/photo-1471897488648-5eae4ac6686b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMDE4OTkyMnw&ixlib=rb-4.0.3&q=80&w=1080',
-  feature3ImgAlt: 'Quality Candidates Image',
-  feature3Title: 'Quality Candidates',
-  feature1Description: 'Specialized in IT recruitment services',
-}
+    "https://images.unsplash.com/photo-1471897488648-5eae4ac6686b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMDE4OTkyMnw&ixlib=rb-4.0.3&q=80&w=1080",
+  feature3ImgAlt: "Quality Candidates Image",
+  feature3Title: "Quality Candidates",
+  feature1Description: "Specialized in IT recruitment services",
+};
 
 Features1.propTypes = {
   feature2Title: PropTypes.string,
@@ -262,6 +278,6 @@ Features1.propTypes = {
   feature3ImgAlt: PropTypes.string,
   feature3Title: PropTypes.string,
   feature1Description: PropTypes.string,
-}
+};
 
-export default Features1
+export default Features1;

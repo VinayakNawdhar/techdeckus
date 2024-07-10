@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link'
 import PropTypes from 'prop-types'
 
 const Footer = (props) => {
@@ -23,11 +23,10 @@ const Footer = (props) => {
                   {props.column1Title}
                 </strong>
                 <div className="footer-footer-links">
-                  <span className="thq-body-small">{props.link1}</span>
-                  <span className="thq-body-small">{props.link2}</span>
-                  <span className="thq-body-small">{props.link3}</span>
-                  <span className="thq-body-small">{props.link4}</span>
-                  <span className="thq-body-small">{props.link5}</span>
+                  <Link href='/' className="thq-body-small">{props.link1}</Link>
+                  <Link href='/about' className="thq-body-small">{props.link2}</Link>
+                  <Link href='/contact' className="thq-body-small">{props.link3}</Link>
+                  <Link href='/our-partners' className="thq-body-small">{props.link4}</Link>
                 </div>
               </div>
               <div className="footer-column2">
@@ -74,14 +73,18 @@ const Footer = (props) => {
                     </svg>
                     <span className="thq-body-small">X</span>
                   </div>
-                  <div className="footer-link3">
-                    <svg
+                  <div>
+                    <Link href='https://www.linkedin.com/company/techdeck-us/' target='_blank'>
+                      <div className="footer-link3 cursor-pointer">
+                      <svg
                       viewBox="0 0 877.7142857142857 1024"
                       className="thq-icon-small"
                     >
                       <path d="M135.429 808h132v-396.571h-132v396.571zM276 289.143c-0.571-38.857-28.571-68.571-73.714-68.571s-74.857 29.714-74.857 68.571c0 37.714 28.571 68.571 73.143 68.571h0.571c46.286 0 74.857-30.857 74.857-68.571zM610.286 808h132v-227.429c0-121.714-65.143-178.286-152-178.286-70.857 0-102.286 39.429-119.429 66.857h1.143v-57.714h-132s1.714 37.143 0 396.571v0h132v-221.714c0-11.429 0.571-23.429 4-32 9.714-23.429 31.429-48 68-48 47.429 0 66.286 36 66.286 89.714v212zM877.714 237.714v548.571c0 90.857-73.714 164.571-164.571 164.571h-548.571c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571c90.857 0 164.571 73.714 164.571 164.571z"></path>
                     </svg>
                     <span className="thq-body-small">LinkedIn</span>
+                      </div>
+                    </Link>
                   </div>
                   <div className="footer-link4">
                     <svg viewBox="0 0 1024 1024" className="thq-icon-small">
@@ -383,11 +386,11 @@ Footer.defaultProps = {
   content3: '',
   column1Title: 'Company',
   privacyLink: '#privacy-policy',
-  link4: 'Contact Us',
+  link4: 'Our partners',
   link5: 'Privacy Policy',
   link6: 'Terms of Use',
   logoSrc: 'https://presentation-website-assets.teleporthq.io/logos/logo.png',
-  link3: 'Services',
+  link3: 'Contact Us',
   cookiesLink: 'Cookie Policy',
   imageAlt: 'image',
   logoAlt: 'IT Recruiting Consultancy Logo',
