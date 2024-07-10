@@ -16,7 +16,7 @@ const Logos1 = (props) => {
             />
             <img
               alt={props.logo2Alt}
-              src={'https://logowik.com/content/uploads/images/fetch-tv6348.jpg'}
+              src={'https://www.petinsurer.com/img/share_insurer_logo/fetch.png'}
               className="logos1-logo2 thq-img-ratio-16-9"
             />
             <img
