@@ -43,25 +43,23 @@ const Navbar = (props) => {
               <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
             </svg>
           </div>
-          <div data-thq="thq-mobile-menu" className="navbar-mobile-menu">
+          <div data-thq="thq-mobile-menu" className="navbar-mobile-menu text-black">
             <div className="navbar-nav">
-              <div className="navbar-top">
+              <div className="navbar-top bg-gray-800 p-5 rounded-xl">
                 <img
                   alt={props.logoAlt}
                   src={props.imageSrc2}
                   className="navbar-logo"
                 />
-                <div data-thq="thq-close-menu" className="navbar-close-menu">
-                  <svg viewBox="0 0 1024 1024" className="navbar-icon2">
-                    <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
-                  </svg>
+                <div data-thq="thq-close-menu" className="navbar-close-menu bg-gray-200 rounded-full p-1">
+                  <img src='https://icons.veryicon.com/png/o/miscellaneous/medium-thin-linear-icon/cross-23.png' className='w-6'></img>
                 </div>
               </div>
-              <nav className="navbar-links1">
-                <Link href='/' className="thq-body-small thq-link" style={{color : 'gray',fontWeight:"300",textDecoration : 'none'}}>{props.link1}</Link>
-                <Link href='/about' className="thq-body-small thq-link" style={{color : 'gray',fontWeight:"300",textDecoration : 'none'}} >{props.link2}</Link>
-                <Link href='/contact' className="thq-body-small thq-link" style={{color : 'gray',fontWeight:"300",textDecoration : 'none'}} >{props.link3}</Link>
-                <Link href='/our-partners' className="navbar-link41 thq-body-small thq-link" style={{color : 'gray',fontWeight:"300",textDecoration : 'none'}} >
+              <nav className="navbar-links1 text-black">
+                <Link href='/' className="thq-body-small thq-link font-semibold">{props.link1}</Link>
+                <Link href='/about' className="thq-body-small thq-link font-semibold" >{props.link2}</Link>
+                <Link href='/contact' className="thq-body-small thq-link font-semibold" >{props.link3}</Link>
+                <Link href='/our-partners' className="navbar-link41 thq-body-small thq-link font-semibold" >
                   {props.link4}
                 </Link>
               </nav>
@@ -113,23 +111,6 @@ const Navbar = (props) => {
             padding-left: 20px;
             flex-direction: row;
             justify-content: flex-start;
-          }
-          .navbar-link1 {
-            fill: var(--dl-color-theme-secondary2);
-            color: var(--dl-color-theme-secondary2);
-          }
-          .navbar-link2 {
-            fill: var(--dl-color-theme-secondary2);
-            color: var(--dl-color-theme-secondary2);
-          }
-          .navbar-link3 {
-            fill: var(--dl-color-theme-secondary2);
-            color: var(--dl-color-theme-secondary2);
-          }
-          .navbar-link4 {
-            fill: var(--dl-color-theme-secondary2);
-            color: var(--dl-color-theme-secondary2);
-            background-color: #ffffff;
           }
           .navbar-burger-menu {
             display: none;
