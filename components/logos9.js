@@ -10,7 +10,7 @@ const Logos9 = (props) => {
         <div className="logos9-max-width thq-section-max-width">
           <h2 className="logos9-text thq-heading-2">{props.heading1}</h2>
         </div>
-        <div className="logos9-container1 thq-animated-group-container-horizontal thq-mask-image-horizontal">
+        <div className="logos9-container1 thq-mask-image-horizontal">
           <div className="thq-animated-group-horizontal">
             <img
               alt={props.logo1Alt}
@@ -168,7 +168,7 @@ const Logos9 = (props) => {
       transform: translateX(0);
     }
     to {
-      transform: translateX(calc(-100% - 0.1px));
+      transform: translateX(calc(-100% - 5px));
     }
   }
 
