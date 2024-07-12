@@ -65,7 +65,7 @@ const Features1 = (props) => {
           <div className="w-1/2">
             <img src="https://www.iic.com/wp-content/themes/accelmwp/img/home/trusted-for-quality-talent.jpg" className="w-full h-full object-cover"></img>
           </div>
-          <div className="w-1/2 p-5 bg-indigo-200 font-['Open_sans']">
+          <div className="w-1/2 p-5 bg-[#C5B6E0] font-['Open_sans']">
             <h2 className="font-bold mt-4">IT Services</h2>
             <p>
               <span className="font-semibold">Cloud Solutions</span>: Deploying secure and scalable cloud
@@ -95,21 +95,21 @@ const Features1 = (props) => {
         <div className="features1-container1 thq-section-max-width">
           <div className="features1-image-container">
             {activeTab === 0 && (
-              <h1 className="bg-indigo-100 text-lg text-indigo-900 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
+              <h1 className="bg-[#C5B6E0] text-lg text-indigo-900 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
                 Deploying secure and scalable cloud infrastructure to streamline
                 data management and enhance accessibility for healthcare
                 providers.
               </h1>
             )}
             {activeTab === 1 && (
-              <h1 className="bg-indigo-100 text-lg text-indigo-900 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
+              <h1 className="bg-[#C5B6E0] text-lg text-indigo-900 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
                 Implementing robust cybersecurity measures to protect patient
                 data and ensure compliance with industry regulations such as
                 HIPAA.
               </h1>
             )}
             {activeTab === 2 && (
-              <h1 className="bg-indigo-100 text-lg text-indigo-900 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
+              <h1 className="bg-[#C5B6E0] text-lg text-indigo-900 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
                 Utilizing advanced analytics to derive actionable insights from
                 healthcare data, enhancing decision-making and operational
                 efficiency.
@@ -171,21 +171,21 @@ const Features1 = (props) => {
         <div className="features1-container1 thq-section-max-width lg:!flex lg:!flex-row-reverse">
           <div className="features1-image-container lg:mr-10 lg:mt-20">
             {activeTab1 === 0 && (
-              <h1 className="bg-indigo-100 text-lg text-indigo-900 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
+              <h1 className="bg-[#C5B6E0] text-lg text-indigo-900 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
                 Integrating remote monitoring devices and applications to enable
                 healthcare providers to monitor patients’ health remotely,
                 reducing hospital readmissions.
               </h1>
             )}
             {activeTab1 === 1 && (
-              <h1 className="bg-indigo-100 text-lg text-indigo-900 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
+              <h1 className="bg-[#C5B6E0] text-lg text-indigo-900 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
                 Designing and developing mobile applications for healthcare
                 professionals and patients, facilitating easier access to
                 medical information and services.
               </h1>
             )}
             {activeTab1 === 2 && (
-              <h1 className="bg-indigo-100 text-lg text-indigo-900 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
+              <h1 className="bg-[#C5B6E0] text-lg text-indigo-900 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
                 Providing guidance on healthcare regulations and compliance
                 requirements, ensuring that IT solutions meet industry standards
                 and legal obligations.

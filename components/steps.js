@@ -10,7 +10,7 @@ const Steps = (props) => {
           <div className="steps-container1 thq-grid-2">
             <div className="steps-section-header">
               <h2 className="thq-heading-2">
-              What We Bring To You
+              Check out what our products can do for you in the IT job hunt
               </h2>
               <p className="thq-body-large">
               Are you struggling to streamline your candidate assessments? We provide advanced tools and strategies to optimise your hiring process, ensuring you find the right fit for your team and culture.

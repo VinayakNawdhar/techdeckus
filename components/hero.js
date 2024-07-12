@@ -159,7 +159,7 @@ const Hero = (props) => {
           <div className='w-full h-full absolute top-0 bg-black/80 text-white font-semibold flex justify-center items-center px-5 lg:px-0'>
             <div className='lg:w-1/2'>
             <h1 className='lg:w-1/2 text-xl drop-shadow-xl'>Welcome to Tech Deck</h1>
-            <h1 className='font-bold text-6xl drop-shadow-xl'>where innovation meets IT and health for a brighter future.</h1>
+            <h1 className='font-light text-6xl drop-shadow-xl'>where innovation meets IT and health for a <span className='font-bold'>brighter future</span>.</h1>
             </div>
           </div>
         </div>
