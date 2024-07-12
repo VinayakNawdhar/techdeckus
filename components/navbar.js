@@ -6,39 +6,32 @@ const Navbar = (props) => {
   return (
     <>
       <header className={`navbar-container ${props.rootClassName} `}>
-        <header data-thq="thq-navbar" className="navbar-navbar-interactive">
-          <div data-thq="thq-navbar-nav" className="navbar-desktop-menu">
-            <Link href='/' >
-            <img
-              alt={props.imageAlt2}
-              src={props.imageSrc2}
-              className="navbar-image cursor-pointer"
-            />
-            </Link>
-            <nav className="navbar-links">
-              <ul>
-                <li className='text-xl tracking-wider th-link'>
-                <Link href='/' className=" navbar-link1 thq-body-small thq-link">
-                {props.link1}
-              </Link>
-                </li>
-                <li className='text-xl tracking-wider th-link'>
-                <Link href='/about' className=" navbar-link2 thq-body-small thq-link">
-                {props.link2}
-              </Link>
-                </li>
-                <li className='text-xl tracking-wider th-link font-semibold'>
-                <Link href='/contact' className=" navbar-link3 thq-body-small thq-link">
-                {props.link3}
-              </Link>
-                </li>
-                <li className='text-xl tracking-wider th-link'>
-                <Link href='/our-partners' className=" navbar-link4 thq-body-small thq-link">
-                {props.link4}
-              </Link>
-                </li>
-              </ul>
-            </nav>
+        <header data-thq="thq-navbar" className="navbar-navbar-interactive shadow-xl">
+          <div className='lg:flex justify-between w-full nav-links font-["Open_sans"] hidden'>
+            <Link href='/'><img src='logo1.png' className='w-14'></img></Link>
+            <ul className='flex gap-10 items-center text-xl'>
+              <li>
+                <Link href='/' className='th-link'>Home</Link>
+              </li>
+              <li>
+                <Link href='/about' className='th-link'>About</Link>
+              </li>
+              <li>
+                <Link href='/contact' className='th-link'>Contact Us</Link>
+              </li>
+              <li>
+                <Link href='/our-partners' className='th-link'>Our partners</Link>
+              </li>
+            </ul>
+            <div className='flex gap-5'>
+              <img src='https://i.pinimg.com/originals/23/c8/7b/23c87b4ad7eadea49aa9401cc8b4d73d.png' className='w-10 h-10'></img>
+              <div>
+                <h3>
+                  Have a question?
+                </h3>
+                <p>1 (501) 507 - 3466</p>
+              </div>
+            </div>
           </div>
           <div data-thq="thq-burger-menu" className="navbar-burger-menu">
             <svg viewBox="0 0 1024 1024" className="navbar-icon">

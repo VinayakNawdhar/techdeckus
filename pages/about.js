@@ -20,6 +20,17 @@ const About = (props) => {
           />
         </Head>
         <Navbar rootClassName="navbar-root-class-name1"></Navbar>
+        <div className="h-[300px] w-full bg-black/30 relative">
+          <img
+            src="https://www.quberinc.com/assets/front/img/banner/10.jpg"
+            className="w-full h-full object-cover object-center"
+          />
+          <div className="w-full h-full bg-black/70 absolute z-10 top-0 flex items-center justify-center">
+            <h1 className="text-white text-center font-bold text-3xl">
+              About Us
+            </h1>
+          </div>
+        </div>
         <Hero8></Hero8>
         <Stats2></Stats2>
         <Logos1></Logos1>

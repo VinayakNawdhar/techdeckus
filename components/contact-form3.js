@@ -40,13 +40,7 @@ const ContactForm3 = (props) => {
             />
           </animate>
           <div className="contact-form3-content thq-flex-column">
-            <div className="contact-form3-section-title thq-card">
-              <span className="thq-body-small">{props.content2}</span>
-              <div className="contact-form3-content1">
-                <h2 className="thq-heading-2">{props.heading1}</h2>
-                <span className="thq-body-small">{props.content1}</span>
-              </div>
-            </div>
+            <h1 className="px-10 text-3xl">Lets talk?</h1>
             <form className="thq-card" onSubmit={handleSubmit}>
               <div className="contact-form3-input">
                 <label htmlFor="contact-form-3-name" className="thq-body-small">

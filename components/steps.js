@@ -10,12 +10,10 @@ const Steps = (props) => {
           <div className="steps-container1 thq-grid-2">
             <div className="steps-section-header">
               <h2 className="thq-heading-2">
-                Discover the Power of Our Products
+              What We Bring To You
               </h2>
               <p className="thq-body-large">
-                We offer expert career coaching, resume writing services, and
-                personalized job matching to help you navigate the IT job search
-                with confidence and land your dream role.
+              Are you struggling to streamline your candidate assessments? We provide advanced tools and strategies to optimise your hiring process, ensuring you find the right fit for your team and culture.
               </p>
               <div className="steps-actions"></div>
             </div>

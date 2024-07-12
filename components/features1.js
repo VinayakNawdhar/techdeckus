@@ -4,46 +4,54 @@ import PropTypes from "prop-types";
 
 const Features1 = (props) => {
   const [activeTab, setActiveTab] = useState(0);
+  const [activeTab1, setActiveTab1] = useState(0);
   return (
     <>
       <div className="thq-section-padding">
+        <h1 className="text-3xl font-semibold mb-2">Our Services</h1>
+        <h1 className="text-xl mb-10">
+          At tech deck we specialise in enhancing your company’s operations
+          through tailored solutions.
+        </h1>
+        <div className="flex flex-col lg:flex-row gap-10 text-center mb-10 justify-center">
+          <div className="lg:w-1/2 shadow-xl p-3 rounded-3xl bg-gray-100 py-10">
+            <h1 className="text-2xl font-semibold">IT Services</h1>
+            <p className="mt-3 px-10">
+              Tech Deck Company specialises in helping clients create
+              environments that attract top talent and foster employee
+              satisfaction. Through our expert services, we guide organisations
+              in identifying and implementing strategies that enhance workplace
+              culture and employee experience. From optimising recruitment
+              processes to developing robust employee engagement initiatives, we
+              ensure our clients stand out as employers of choice. Partner with
+              Tech Deck Company to transform your workplace into a destination
+              where talented professionals thrive and contribute to your
+              organisation’s growth and innovation.
+            </p>
+          </div>
+          <div className="lg:w-1/2 shadow-xl p-3 rounded-3xl bg-gray-100 py-10">
+            <h1 className="text-2xl font-semibold">Healthcare Services</h1>
+            <p className="mt-3 px-10">
+            Tech Deck Company excels in elevating healthcare organisations into premier employers, fostering environments where staff thrive and deliver exceptional care. our services include refining recruitment processes, implementing effective employee engagement programs, and developing robust healthcare-specific training initiatives. We collaborate closely with clients to understand their unique challenges and goals, crafting strategies that align with industry standards and regulatory requirements. By leveraging our expertise in healthcare and technology, we empower organisations to build resilient teams and achieve operational excellence.
+            </p>
+          </div>
+        </div>
+        <h1 className="text-2xl mb-10 font-semibold">IT Services</h1>
         <div className="features1-container1 thq-section-max-width">
           <div className="features1-image-container">
             {activeTab === 0 && (
-              <h1 className="bg-indigo-900 text-lg text-indigo-100 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
-                In today's competitive tech market, finding the perfect IT
-                talent is crucial. Expert IT Recruitment solves that problem.
-                With deep industry knowledge and a vast network, they connect
-                you with top pre-vetted professionals. They handle the entire
-                process, saving you time and resources. Let them build your
-                high-performing IT team. Choose Expert IT Recruitment - your
-                trusted partner in IT recruitment success.
+              <h1 className="bg-blue-900 text-lg text-indigo-100 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
+                Deploying secure and scalable cloud infrastructure to streamline data management and enhance accessibility for healthcare providers.
               </h1>
             )}
             {activeTab === 1 && (
-              <h1 className="bg-indigo-900 text-lg text-indigo-100 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
-                The one-size-fits-all approach to recruitment simply doesn't cut
-                it anymore. Tailored Approach understands this. We offer
-                customized recruitment solutions designed to meet your unique
-                needs and company culture. Our experts take the time to
-                understand your specific requirements, desired skillsets, and
-                ideal candidate profile. This ensures we connect you with the
-                perfect talent – not just someone who checks the boxes.
-                Experience the difference a tailored approach can make. Contact
-                us today!
+              <h1 className="bg-blue-900 text-lg text-indigo-100 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
+                Implementing robust cybersecurity measures to protect patient data and ensure compliance with industry regulations such as HIPAA.
               </h1>
             )}
             {activeTab === 2 && (
-              <h1 className="bg-indigo-900 text-lg text-indigo-100 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
-                We provide unparalleled access to top IT talent. Our rigorous
-                screening process ensures you connect with highly skilled
-                professionals who possess the technical expertise and the drive
-                to excel. Quality Candidates delivers the perfect blend of
-                talent and fit. We understand that cultural alignment is just as
-                important as technical prowess. That's why we go beyond resumes,
-                focusing on finding the individuals who will seamlessly
-                integrate into your team and contribute to your long-term
-                success.
+              <h1 className="bg-blue-900 text-lg text-indigo-100 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
+                Utilizing advanced analytics to derive actionable insights from healthcare data, enhancing decision-making and operational efficiency.
               </h1>
             )}
           </div>
@@ -58,10 +66,10 @@ const Features1 = (props) => {
                 )}
               </div>
               <div className="features1-content">
-                <h2 className="thq-heading-2">{props.feature1Title}</h2>
-                <span className="thq-body-small">
+                <h2 className="thq-heading-2">Cloud Solutions</h2>
+                {/* <span className="thq-body-small">
                   {props.feature1Description}
-                </span>
+                </span> */}
               </div>
             </div>
             <div
@@ -74,10 +82,10 @@ const Features1 = (props) => {
                 )}
               </div>
               <div className="features1-content1">
-                <h2 className="thq-heading-2">{props.feature2Title}</h2>
-                <span className="thq-body-small">
+                <h2 className="thq-heading-2">Cybersecurity</h2>
+                {/* <span className="thq-body-small">
                   {props.feature2Description}
-                </span>
+                </span> */}
               </div>
             </div>
             <div
@@ -90,10 +98,81 @@ const Features1 = (props) => {
                 )}
               </div>
               <div className="features1-content2">
-                <h2 className="thq-heading-2">{props.feature3Title}</h2>
-                <span className="thq-body-small">
+                <h2 className="thq-heading-2">Data Analytics</h2>
+                {/* <span className="thq-body-small">
                   {props.feature3Description}
-                </span>
+                </span> */}
+              </div>
+            </div>
+          </div>
+        </div>
+        <h1 className="text-2xl my-10 font-semibold">Healthcare Services</h1>
+        <div className="features1-container1 thq-section-max-width lg:!flex lg:!flex-row-reverse">
+          <div className="features1-image-container lg:mr-10 lg:mt-20">
+            {activeTab1 === 0 && (
+              <h1 className="bg-blue-900 text-lg text-indigo-100 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
+                Integrating remote monitoring devices and applications to enable healthcare providers to monitor patients’ health remotely, reducing hospital readmissions.
+
+              </h1>
+            )}
+            {activeTab1 === 1 && (
+              <h1 className="bg-blue-900 text-lg text-indigo-100 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
+                Designing and developing mobile applications for healthcare professionals and patients, facilitating easier access to medical information and services.
+              </h1>
+            )}
+            {activeTab1 === 2 && (
+              <h1 className="bg-blue-900 text-lg text-indigo-100 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
+                Providing guidance on healthcare regulations and compliance requirements, ensuring that IT solutions meet industry standards and legal obligations.
+              </h1>
+            )}
+          </div>
+          <div className="features1-tabs-menu lg:pl-40">
+            <div
+              onClick={() => setActiveTab1(0)}
+              className="features1-tab-horizontal"
+            >
+              <div className="features1-divider-container">
+                {activeTab1 === 0 && (
+                  <div className="features1-container2"></div>
+                )}
+              </div>
+              <div className="features1-content">
+                <h2 className="thq-heading-2">Remote Monitoring Solutions</h2>
+                {/* <span className="thq-body-small">
+                  {props.feature1Description}
+                </span> */}
+              </div>
+            </div>
+            <div
+              onClick={() => setActiveTab1(1)}
+              className="features1-tab-horizontal1"
+            >
+              <div className="features1-divider-container1">
+                {activeTab1 === 1 && (
+                  <div className="features1-container3"></div>
+                )}
+              </div>
+              <div className="features1-content1">
+                <h2 className="thq-heading-2">Healthcare Mobile Apps</h2>
+                {/* <span className="thq-body-small">
+                  {props.feature2Description}
+                </span> */}
+              </div>
+            </div>
+            <div
+              onClick={() => setActiveTab1(2)}
+              className="features1-tab-horizontal2"
+            >
+              <div className="features1-divider-container2">
+                {activeTab1 === 2 && (
+                  <div className="features1-container4"></div>
+                )}
+              </div>
+              <div className="features1-content2">
+                <h2 className="thq-heading-2">Compliance and Regulatory Support</h2>
+                {/* <span className="thq-body-small">
+                  {props.feature3Description}
+                </span> */}
               </div>
             </div>
           </div>
