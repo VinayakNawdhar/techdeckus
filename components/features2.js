@@ -83,7 +83,12 @@ const Features2 = (props) => {
           </div>
         </div>
       </div> */}
-      <div></div>
+      <div>
+        <div className='w-full h-[500px] overflow-hidden relative'>
+          <img src='https://www.quberinc.com/assets/front/img/new/bgimg2.jpg' className='object-cover'></img>
+          <div className='w-full h-full bg-black/60 absolute top-0'></div>
+        </div>
+      </div>
     </>
   )
 }

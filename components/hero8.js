@@ -14,7 +14,7 @@ const Hero8 = (props) => {
                   data-thq-animate-on-reveal="true"
                   className="hero8-text thq-heading-1 !w-4/5 !mx-auto"
                 >
-                  On the hunt for the best IT whizzes? Our crew knows how to link top tech talent with the best gigs out there.
+                  On the prowl for the sharpest geeks? Our team hooks up ace tech talent with killer jobs.
                 </h1>
               </animate>
               <p className="hero8-text1 thq-body-large !text-left !w-3/4">At tech deck, we are dedicated specialists in IT recruitment and healthcare staffing, committed to connecting exceptional talent with career-defining opportunities. With a deep-rooted understanding of the complexities within these pivotal industries, we strive to deliver unparalleled service and results. <br></br>

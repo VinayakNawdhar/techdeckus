@@ -56,63 +56,77 @@ const Features1 = (props) => {
           </div>
         </div>
         <CTA></CTA>
-        <h1 className="font-bold text-3xl">Boost your game with Tech Deck online services</h1>
-            <p className="">
-              At Tech Deck, we specialise in delivering innovative online
-              services tailored for the IT and healthcare industries.
-            </p>
-        <div className="w-full my-10 flex rounded-xl shadow-xl overflow-hidden">
-          <div className="w-1/2">
-            <img src="https://www.iic.com/wp-content/themes/accelmwp/img/home/trusted-for-quality-talent.jpg" className="w-full h-full object-cover"></img>
+        <h1 className="font-bold text-3xl">
+          Boost your game with Tech Deck online services
+        </h1>
+        <p className="">
+          At Tech Deck, we specialise in delivering innovative online services
+          tailored for the IT and healthcare industries.
+        </p>
+        <div className="w-full my-10 flex flex-wrap rounded-xl shadow-xl overflow-hidden">
+          <div className="lg:w-1/2">
+            <img
+              src="https://www.iic.com/wp-content/themes/accelmwp/img/home/trusted-for-quality-talent.jpg"
+              className="w-full h-full object-cover"
+            ></img>
           </div>
-          <div className="w-1/2 p-5 bg-[#C5B6E0] font-['Open_sans']">
+          <div className="lg:w-1/2 p-5 bg-[#C5B6E0] font-['Open_sans']">
             <h2 className="font-bold mt-4">IT Services</h2>
             <p>
-              <span className="font-semibold">Cloud Solutions</span>: Deploying secure and scalable cloud
-              infrastructure to streamline data management and enhance
-              accessibility for healthcare providers.<br></br> <span className="font-semibold">Cybersecurity</span>:
+              <span className="font-semibold">Cloud Solutions</span>: Deploying
+              secure and scalable cloud infrastructure to streamline data
+              management and enhance accessibility for healthcare providers.
+              <br></br> <span className="font-semibold">Cybersecurity</span>:
               Implementing robust cybersecurity measures to protect patient data
-              and ensure compliance with industry regulations such as HIPAA.<br></br>
-              <span className="font-semibold">Data Analytics</span>: Utilizing advanced analytics to derive actionable
-              insights from healthcare data, enhancing decision-making and
-              operational efficiency.
+              and ensure compliance with industry regulations such as HIPAA.
+              <br></br>
+              <span className="font-semibold">Data Analytics</span>: Utilizing
+              advanced analytics to derive actionable insights from healthcare
+              data, enhancing decision-making and operational efficiency.
             </p>
             <h2 className="font-bold mt-4">Healthcare Services</h2>
             <p>
-            <span className="font-semibold">Remote Monitoring Solutions</span>: Integrating remote monitoring devices
-              and applications to enable healthcare providers to monitor
-              patients’ health remotely, reducing hospital readmissions.<br></br>
-              <span className="font-semibold">Healthcare Mobile Apps</span>: Designing and developing mobile
-              applications for healthcare professionals and patients,
-              facilitating easier access to medical information and services.<br></br>
-              <span className="font-semibold">Compliance and Regulatory Support</span>: Providing guidance on
-              healthcare regulations and compliance requirements, ensuring that
-              IT solutions meet industry standards and legal obligations.
+              <span className="font-semibold">Remote Monitoring Solutions</span>
+              : Integrating remote monitoring devices and applications to enable
+              healthcare providers to monitor patients’ health remotely,
+              reducing hospital readmissions.<br></br>
+              <span className="font-semibold">Healthcare Mobile Apps</span>:
+              Designing and developing mobile applications for healthcare
+              professionals and patients, facilitating easier access to medical
+              information and services.<br></br>
+              <span className="font-semibold">
+                Compliance and Regulatory Support
+              </span>
+              : Providing guidance on healthcare regulations and compliance
+              requirements, ensuring that IT solutions meet industry standards
+              and legal obligations.
             </p>
           </div>
         </div>
-        <h1 className="text-2xl mb-10 font-semibold">IT Services</h1>
+        <h1 className="text-2xl mb-10 font-semibold">Our Mission</h1>
         <div className="features1-container1 thq-section-max-width">
           <div className="features1-image-container">
             {activeTab === 0 && (
               <h1 className="bg-[#C5B6E0] text-lg text-indigo-900 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
-                Deploying secure and scalable cloud infrastructure to streamline
-                data management and enhance accessibility for healthcare
-                providers.
+                - To design and produce high-quality, innovative tech deck
+                products.<br></br>
+                 - To inspire creativity and skill development through
+                cutting-edge designs and materials.
               </h1>
             )}
             {activeTab === 1 && (
               <h1 className="bg-[#C5B6E0] text-lg text-indigo-900 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
-                Implementing robust cybersecurity measures to protect patient
-                data and ensure compliance with industry regulations such as
-                HIPAA.
+                - To foster a global community of tech deck enthusiasts.
+                <br></br> - To
+                host engaging events, tutorials, and competitions that bring
+                people together.
               </h1>
             )}
             {activeTab === 2 && (
               <h1 className="bg-[#C5B6E0] text-lg text-indigo-900 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
-                Utilizing advanced analytics to derive actionable insights from
-                healthcare data, enhancing decision-making and operational
-                efficiency.
+                - To maintain a commitment to sustainability by using
+                eco-friendly materials and practices.<br></br> - To lead the industry in
+                sustainable production processes.
               </h1>
             )}
           </div>
@@ -127,7 +141,7 @@ const Features1 = (props) => {
                 )}
               </div>
               <div className="features1-content">
-                <h2 className="thq-heading-2">Cloud Solutions</h2>
+                <h2 className="thq-heading-2">Product Excellence</h2>
                 {/* <span className="thq-body-small">
                   {props.feature1Description}
                 </span> */}
@@ -143,7 +157,7 @@ const Features1 = (props) => {
                 )}
               </div>
               <div className="features1-content1">
-                <h2 className="thq-heading-2">Cybersecurity</h2>
+                <h2 className="thq-heading-2">Community Engagement</h2>
                 {/* <span className="thq-body-small">
                   {props.feature2Description}
                 </span> */}
@@ -159,7 +173,7 @@ const Features1 = (props) => {
                 )}
               </div>
               <div className="features1-content2">
-                <h2 className="thq-heading-2">Data Analytics</h2>
+                <h2 className="thq-heading-2">Sustainability</h2>
                 {/* <span className="thq-body-small">
                   {props.feature3Description}
                 </span> */}
@@ -167,28 +181,27 @@ const Features1 = (props) => {
             </div>
           </div>
         </div>
-        <h1 className="text-2xl my-10 font-semibold">Healthcare Services</h1>
+        <h1 className="text-2xl my-10 font-semibold">Our Vision</h1>
         <div className="features1-container1 thq-section-max-width lg:!flex lg:!flex-row-reverse">
-          <div className="features1-image-container lg:mr-10 lg:mt-20">
+          <div className="features1-image-container w-full !h-auto">
             {activeTab1 === 0 && (
               <h1 className="bg-[#C5B6E0] text-lg text-indigo-900 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
-                Integrating remote monitoring devices and applications to enable
-                healthcare providers to monitor patients’ health remotely,
-                reducing hospital readmissions.
+                - To be the leading brand in the tech deck industry.
+                <br></br> - To be
+                recognized for our quality, innovation, and community
+                engagement.
               </h1>
             )}
             {activeTab1 === 1 && (
               <h1 className="bg-[#C5B6E0] text-lg text-indigo-900 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
-                Designing and developing mobile applications for healthcare
-                professionals and patients, facilitating easier access to
-                medical information and services.
+                - To expand our reach globally.<br></br> - To make tech deck a popular
+                and accessible hobby for people everywhere.
               </h1>
             )}
             {activeTab1 === 2 && (
               <h1 className="bg-[#C5B6E0] text-lg text-indigo-900 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
-                Providing guidance on healthcare regulations and compliance
-                requirements, ensuring that IT solutions meet industry standards
-                and legal obligations.
+                - To continuously innovate our products. <br></br>- To set new standards
+                for performance and creativity in the tech deck world.
               </h1>
             )}
           </div>
@@ -203,7 +216,7 @@ const Features1 = (props) => {
                 )}
               </div>
               <div className="features1-content">
-                <h2 className="thq-heading-2">Remote Monitoring Solutions</h2>
+                <h2 className="thq-heading-2">Industry Leadership</h2>
                 {/* <span className="thq-body-small">
                   {props.feature1Description}
                 </span> */}
@@ -219,7 +232,7 @@ const Features1 = (props) => {
                 )}
               </div>
               <div className="features1-content1">
-                <h2 className="thq-heading-2">Healthcare Mobile Apps</h2>
+                <h2 className="thq-heading-2">Global Reach</h2>
                 {/* <span className="thq-body-small">
                   {props.feature2Description}
                 </span> */}
@@ -235,9 +248,7 @@ const Features1 = (props) => {
                 )}
               </div>
               <div className="features1-content2">
-                <h2 className="thq-heading-2">
-                  Compliance and Regulatory Support
-                </h2>
+                <h2 className="thq-heading-2">Continuous Innovation</h2>
                 {/* <span className="thq-body-small">
                   {props.feature3Description}
                 </span> */}
