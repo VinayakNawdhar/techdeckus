@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 
-import PropTypes from 'prop-types'
+import PropTypes from "prop-types";
 
 const Features2 = (props) => {
-  const [activeTab, setActiveTab] = useState(0)
+  const [activeTab, setActiveTab] = useState(0);
   return (
     <>
       {/* <div className="thq-section-padding">
@@ -84,35 +84,45 @@ const Features2 = (props) => {
         </div>
       </div> */}
       <div>
-        <div className='w-full h-[500px] overflow-hidden relative'>
-          <img src='https://www.quberinc.com/assets/front/img/new/bgimg2.jpg' className='object-cover'></img>
-          <div className='w-full h-full bg-black/60 absolute top-0'></div>
+        <div className="w-[100vw] min-h-[500px] overflow-hidden relative quote-box">
+          <div className="w-full h-full absolute bg-black/80 top-0 text-gray-300 flex flex-wrap justify-center lg:text-4xl font-['Playfair_Display_SC'] items-center">
+          <h1 className="p-10 max-w-[700px] border-r-white lg:border-r-4 border-b-4 ">
+              "Beyond skills, we build bridges. We go deeper than resumes to find
+              talent that aligns with your vision and empowers your team to
+              thrive."
+            </h1>
+            <h1 className="p-10 max-w-[700px]">
+              "Shaping the future of IT, one perfect match at a time. We connect
+              companies with the tech talent that ignites innovation
+              and drives success."
+            </h1>
+          </div>
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
 Features2.defaultProps = {
   feature2Description:
-    'We offer customized recruitment solutions to meet your specific IT hiring needs.',
+    "We offer customized recruitment solutions to meet your specific IT hiring needs.",
   feature1ImgSrc:
-    'https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMDE4OTkyMnw&ixlib=rb-4.0.3&q=80&w=1080',
-  feature1ImgAlt: 'feature 1',
+    "https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMDE4OTkyMnw&ixlib=rb-4.0.3&q=80&w=1080",
+  feature1ImgAlt: "feature 1",
   feature3Description:
-    'By leveraging cutting-edge recruitment strategies and deep industry knowledge, we connect the right talent with the right companies, propelling the tech sector forward.',
+    "By leveraging cutting-edge recruitment strategies and deep industry knowledge, we connect the right talent with the right companies, propelling the tech sector forward.",
   feature3ImgSrc:
-    'https://images.unsplash.com/photo-1519750783826-e2420f4d687f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMDE4OTkyM3w&ixlib=rb-4.0.3&q=80&w=1080',
-  feature1Title: 'Powering the Future of Tech through Recruitment',
+    "https://images.unsplash.com/photo-1519750783826-e2420f4d687f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMDE4OTkyM3w&ixlib=rb-4.0.3&q=80&w=1080",
+  feature1Title: "Powering the Future of Tech through Recruitment",
   feature2ImgSrc:
-    'https://images.unsplash.com/photo-1499244571948-7ccddb3583f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMDE4OTkyNHw&ixlib=rb-4.0.3&q=80&w=1080',
-  feature2Title: 'Tailored Recruitment Solutions',
-  feature3ImgAlt: 'image',
-  feature3Title: 'From Resume to Reality',
+    "https://images.unsplash.com/photo-1499244571948-7ccddb3583f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMDE4OTkyNHw&ixlib=rb-4.0.3&q=80&w=1080",
+  feature2Title: "Tailored Recruitment Solutions",
+  feature3ImgAlt: "image",
+  feature3Title: "From Resume to Reality",
   feature1Description:
-    'Our personalized approach and access to a vast network of opportunities empower you to land your dream IT job and reach your full potential.',
-  feature2ImgAlt: 'Tailored Recruitment Solutions Image Alt',
-}
+    "Our personalized approach and access to a vast network of opportunities empower you to land your dream IT job and reach your full potential.",
+  feature2ImgAlt: "Tailored Recruitment Solutions Image Alt",
+};
 
 Features2.propTypes = {
   feature2Description: PropTypes.string,
@@ -127,6 +137,6 @@ Features2.propTypes = {
   feature3Title: PropTypes.string,
   feature1Description: PropTypes.string,
   feature2ImgAlt: PropTypes.string,
-}
+};
 
-export default Features2
+export default Features2;

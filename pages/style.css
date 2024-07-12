@@ -119,6 +119,10 @@
   border-color: var(--dl-color-theme-primary2);
   background-color: var(--dl-color-theme-primary2);
 }
+.quote-box{
+  background-image: url('https://www.quberinc.com/assets/front/img/new/bgimg2.jpg');
+  
+}
 .thq-button-outline {
   gap: var(--dl-space-space-halfunit);
   fill: var(--dl-color-theme-primary1);
