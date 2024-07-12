@@ -86,7 +86,7 @@ const Features2 = (props) => {
       <div>
         <div className="w-[100vw] min-h-[500px] overflow-hidden relative quote-box">
           <div className="w-full h-full absolute bg-black/80 top-0 text-gray-300 flex flex-wrap justify-center lg:text-4xl font-['Playfair_Display_SC'] items-center">
-          <h1 className="p-10 max-w-[700px] border-r-white lg:border-r-4 border-b-4 ">
+          <h1 className="p-10 max-w-[700px] border-r-white lg:border-r-4 border-b-4 lg:border-b-0">
               "Beyond skills, we build bridges. We go deeper than resumes to find
               talent that aligns with your vision and empowers your team to
               thrive."
