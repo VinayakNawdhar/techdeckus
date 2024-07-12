@@ -9,10 +9,15 @@ const Features1 = (props) => {
     <>
       <div className="thq-section-padding">
         <h1 className="text-3xl font-semibold mb-2">Our Services</h1>
-        <h1 className="text-xl mb-10">
+        <h1 className="text-xl mb-5">
           At tech deck we specialise in enhancing your company’s operations
           through tailored solutions.
         </h1>
+        <h1 className="text-2xl font-semibold mb-2 bg-gray-100 rounded-xl px-10">What We Bring To You?
+        </h1>
+        <p className="text-md mb-10 lg:w-2/3 text-center font-semibold">
+        Are you struggling to streamline your candidate assessments? We provide advanced tools and strategies to optimise your hiring process, ensuring you find the right fit for your team and culture.
+        </p>
         <div className="flex flex-col lg:flex-row gap-10 text-center mb-10 justify-center">
           <div className="lg:w-1/2 shadow-xl p-3 rounded-3xl bg-gray-100 py-10">
             <h1 className="text-2xl font-semibold">IT Services</h1>
