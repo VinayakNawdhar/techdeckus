@@ -12,7 +12,7 @@ const CTA = (props) => {
               <div className="cta-container1">
                 <div className="cta-content">
                   <span className="thq-heading-2">{props.heading1}</span>
-                  <p className="thq-body-large">{props.content1}</p>
+                  <p className="thq-body-large">On the hunt for the best IT whizzes? Our crew knows how to link top tech talent with the best gigs out there.</p>
                 </div>
                 <div className="cta-actions">
                   <button
