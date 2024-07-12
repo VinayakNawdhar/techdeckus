@@ -11,8 +11,8 @@ const CTA = (props) => {
             <div className="cta-accent1-bg">
               <div className="cta-container1">
                 <div className="cta-content">
-                  <span className="thq-heading-2">{props.heading1}</span>
-                  <p className="thq-body-large">On the hunt for the best IT whizzes? Our crew knows how to link top tech talent with the best gigs out there.</p>
+                  <span className="thq-heading-2">On the hunt for best IT Whizzes?</span>
+                  <p className="thq-body-large">Our crew knows how to link top tech talent with the best gigs out there.</p>
                 </div>
                 <div className="cta-actions">
                   <button
