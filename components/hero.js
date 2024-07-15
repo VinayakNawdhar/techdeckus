@@ -155,10 +155,10 @@ const Hero = (props) => {
           </div>
         </div> */}
         <div className='w-full h-[85vh] relative'>
-          <img src='https://img.freepik.com/free-vector/choosing-best-candidate-concept_52683-43377.jpg' className='w-full h-full object-cover'></img>
+          <img src='1.jpg' className='w-full h-full object-cover'></img>
           <div className='w-full h-full absolute top-0 bg-black/80 text-white font-semibold flex justify-center items-center px-5 lg:px-0'>
             <div className='lg:w-1/2'>
-            <h1 className='lg:w-1/2 text-xl drop-shadow-xl'>Welcome to Tech Deck</h1>
+            <h1 className='lg:w-1/2 text-xl drop-shadow-xl'>Welcome to Tech Deck US</h1>
             <h1 className='font-light text-6xl drop-shadow-xl'>where innovation meets IT and health for a <span className='font-bold'>brighter future</span>.</h1>
             </div>
           </div>

@@ -20,7 +20,7 @@ const Contact1 = (props) => {
         <Navbar rootClassName="navbar-root-class-name2"></Navbar>
         <div className="h-[300px] w-full bg-black/30 relative">
           <img
-            src="/contact-us.jpg"
+            src="/5.jpg"
             className="w-full h-full object-cover object-center"
           />
           <div className="w-full h-full bg-black/70 absolute z-10 top-0 flex items-center justify-center">

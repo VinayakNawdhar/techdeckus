@@ -17,7 +17,7 @@ const Hero8 = (props) => {
                   On the prowl for the sharpest geeks? Our team hooks up ace tech talent with killer jobs.
                 </h1>
               </animate>
-              <p className="hero8-text1 thq-body-large !text-left !w-3/4">At tech deck, we are dedicated specialists in IT recruitment and healthcare staffing, committed to connecting exceptional talent with career-defining opportunities. With a deep-rooted understanding of the complexities within these pivotal industries, we strive to deliver unparalleled service and results. <br></br>
+              <p className="hero8-text1 thq-body-large !text-left !w-3/4">At TechDeck US, we are dedicated specialists in IT recruitment and healthcare staffing, committed to connecting exceptional talent with career-defining opportunities. With a deep-rooted understanding of the complexities within these pivotal industries, we strive to deliver unparalleled service and results. <br></br>
               <br></br>
               Our mission is to serve as the catalyst for success, facilitating strategic matches that drive innovation and excellence. Whether it's sourcing top-tier IT professionals proficient in cutting-edge technologies or identifying compassionate healthcare providers dedicated to patient-centric care, we excel in meeting diverse staffing needs. <br></br>
               Backed by years of experience and a steadfast commitment to quality, we pride ourselves on our rigorous selection processes and personalised approach. We prioritise integrity and transparency in every interaction, fostering long-term relationships built on trust and mutual respect.
@@ -26,7 +26,7 @@ const Hero8 = (props) => {
           </div>
           <img
             alt={props.image1Alt}
-            src={props.image1Src}
+            src='3.jpg'
             className="thq-img-ratio-16-9 hero8-hero-image"
           />
         </div>

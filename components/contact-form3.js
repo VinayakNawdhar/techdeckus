@@ -34,7 +34,7 @@ const ContactForm3 = (props) => {
           <animate animation="fadeInTopLeft">
             <img
               alt={props.imageAlt}
-              src={props.imageSrc}
+              src='6.jpg'
               data-thq-animate-on-reveal="true"
               className="contact-form3-image1 thq-img-ratio-4-3"
             />

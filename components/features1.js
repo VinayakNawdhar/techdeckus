@@ -11,7 +11,7 @@ const Features1 = (props) => {
       <div className="thq-section-padding">
         <h1 className="text-3xl font-semibold mb-2">Our Services</h1>
         <h1 className="text-xl mb-5">
-          At tech deck we specialise in enhancing your company’s operations
+          At Tech Deck US we specialise in enhancing your company’s operations
           through tailored solutions.
         </h1>
         <h1 className="text-2xl font-semibold mb-2 bg-gray-100 rounded-xl px-10">
@@ -26,14 +26,14 @@ const Features1 = (props) => {
           <div className="lg:w-1/2 shadow-xl p-3 rounded-3xl bg-gray-100 py-10">
             <h1 className="text-2xl font-semibold">IT Services</h1>
             <p className="mt-3 px-10">
-              Tech Deck Company specialises in helping clients create
+              Tech Deck US specialises in helping clients create
               environments that attract top talent and foster employee
               satisfaction. Through our expert services, we guide organisations
               in identifying and implementing strategies that enhance workplace
               culture and employee experience. From optimising recruitment
               processes to developing robust employee engagement initiatives, we
               ensure our clients stand out as employers of choice. Partner with
-              Tech Deck Company to transform your workplace into a destination
+              Tech Deck US to transform your workplace into a destination
               where talented professionals thrive and contribute to your
               organisation’s growth and innovation.
             </p>
@@ -41,7 +41,7 @@ const Features1 = (props) => {
           <div className="lg:w-1/2 shadow-xl p-3 rounded-3xl bg-gray-100 py-10">
             <h1 className="text-2xl font-semibold">Healthcare Services</h1>
             <p className="mt-3 px-10">
-              Tech Deck Company excels in elevating healthcare organisations
+              Tech Deck US excels in elevating healthcare organisations
               into premier employers, fostering environments where staff thrive
               and deliver exceptional care. our services include refining
               recruitment processes, implementing effective employee engagement
@@ -57,20 +57,20 @@ const Features1 = (props) => {
         </div>
         <CTA></CTA>
         <h1 className="font-bold text-3xl">
-          Boost your game with Tech Deck online services
+          Boost your game with Tech Deck US online services
         </h1>
         <p className="">
-          At Tech Deck, we specialise in delivering innovative online services
+          At Tech Deck US, we specialise in delivering innovative online services
           tailored for the IT and healthcare industries.
         </p>
         <div className="w-full my-10 flex flex-wrap rounded-xl shadow-xl overflow-hidden">
           <div className="lg:w-1/2">
             <img
-              src="https://www.iic.com/wp-content/themes/accelmwp/img/home/trusted-for-quality-talent.jpg"
-              className="w-full h-full object-cover"
+              src="4.jpg"
+              className="w-full h-full object-cover object-center"
             ></img>
           </div>
-          <div className="lg:w-1/2 p-5 bg-[#C5B6E0] font-['Open_sans']">
+          <div className="lg:w-1/2 p-5 bg-[#578F78] font-['Open_sans']">
             <h2 className="font-bold mt-4">IT Services</h2>
             <p>
               <span className="font-semibold">Cloud Solutions</span>: Deploying
@@ -107,7 +107,7 @@ const Features1 = (props) => {
         <div className="features1-container1 thq-section-max-width">
           <div className="features1-image-container">
             {activeTab === 0 && (
-              <h1 className="bg-[#C5B6E0] text-lg text-indigo-900 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
+              <h1 className="bg-[#578F78] text-lg text-black tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
                 - To design and produce high-quality, innovative tech deck
                 products.<br></br>
                  - To inspire creativity and skill development through
@@ -115,7 +115,7 @@ const Features1 = (props) => {
               </h1>
             )}
             {activeTab === 1 && (
-              <h1 className="bg-[#C5B6E0] text-lg text-indigo-900 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
+              <h1 className="bg-[#578F78] text-lg text-black tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
                 - To foster a global community of tech deck enthusiasts.
                 <br></br> - To
                 host engaging events, tutorials, and competitions that bring
@@ -123,7 +123,7 @@ const Features1 = (props) => {
               </h1>
             )}
             {activeTab === 2 && (
-              <h1 className="bg-[#C5B6E0] text-lg text-indigo-900 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
+              <h1 className="bg-[#578F78] text-lg text-black tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
                 - To maintain a commitment to sustainability by using
                 eco-friendly materials and practices.<br></br> - To lead the industry in
                 sustainable production processes.
@@ -185,7 +185,7 @@ const Features1 = (props) => {
         <div className="features1-container1 thq-section-max-width lg:!flex lg:!flex-row-reverse">
           <div className="features1-image-container w-full !h-auto">
             {activeTab1 === 0 && (
-              <h1 className="bg-[#C5B6E0] text-lg text-indigo-900 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
+              <h1 className="bg-[#578F78] text-lg text-black tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
                 - To be the leading brand in the tech deck industry.
                 <br></br> - To be
                 recognized for our quality, innovation, and community
@@ -193,13 +193,13 @@ const Features1 = (props) => {
               </h1>
             )}
             {activeTab1 === 1 && (
-              <h1 className="bg-[#C5B6E0] text-lg text-indigo-900 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
+              <h1 className="bg-[#578F78] text-lg text-black tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
                 - To expand our reach globally.<br></br> - To make tech deck a popular
                 and accessible hobby for people everywhere.
               </h1>
             )}
             {activeTab1 === 2 && (
-              <h1 className="bg-[#C5B6E0] text-lg text-indigo-900 tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
+              <h1 className="bg-[#578F78] text-lg text-black tracking-wider font-semibold p-6 rounded-xl shadow-xl flex items-center">
                 - To continuously innovate our products. <br></br>- To set new standards
                 for performance and creativity in the tech deck world.
               </h1>

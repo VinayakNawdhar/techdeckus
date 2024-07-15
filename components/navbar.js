@@ -1,34 +1,48 @@
-import React from 'react'
-import Link from 'next/link'
-import PropTypes from 'prop-types'
+import React from "react";
+import Link from "next/link";
+import PropTypes from "prop-types";
 
 const Navbar = (props) => {
   return (
     <>
       <header className={`navbar-container ${props.rootClassName} `}>
-        <header data-thq="thq-navbar" className="navbar-navbar-interactive shadow-xl">
+        <header
+          data-thq="thq-navbar"
+          className="navbar-navbar-interactive shadow-xl !py-5"
+        >
           <div className='lg:flex justify-between w-full nav-links font-["Open_sans"] hidden'>
-            <Link href='/'><img src='logo1.png' className='w-14'></img></Link>
-            <ul className='flex gap-10 items-center text-xl'>
+            <Link href="/">
+              <img src="logo1.png" className="w-20"></img>
+            </Link>
+            <ul className="flex gap-10 items-center text-xl">
               <li>
-                <Link href='/' className='th-link'>Home</Link>
+                <Link href="/" className="th-link">
+                  Home
+                </Link>
               </li>
               <li>
-                <Link href='/about' className='th-link'>About</Link>
+                <Link href="/about" className="th-link">
+                  About
+                </Link>
               </li>
               <li>
-                <Link href='/contact' className='th-link'>Contact Us</Link>
+                <Link href="/contact" className="th-link">
+                  Contact Us
+                </Link>
               </li>
               <li>
-                <Link href='/our-partners' className='th-link'>Our partners</Link>
+                <Link href="/support" className="th-link">
+                  Support
+                </Link>
               </li>
             </ul>
-            <div className='flex gap-5'>
-              <img src='https://i.pinimg.com/originals/23/c8/7b/23c87b4ad7eadea49aa9401cc8b4d73d.png' className='w-10 h-10'></img>
+            <div className="flex gap-5 items-center">
+              <img
+                src="https://i.pinimg.com/originals/23/c8/7b/23c87b4ad7eadea49aa9401cc8b4d73d.png"
+                className="w-10 h-10"
+              ></img>
               <div>
-                <h3>
-                  Have a question?
-                </h3>
+                <h3>Have a question?</h3>
                 <p>1 (501) 507 - 3466</p>
               </div>
             </div>
@@ -38,7 +52,10 @@ const Navbar = (props) => {
               <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
             </svg>
           </div>
-          <div data-thq="thq-mobile-menu" className="navbar-mobile-menu text-black">
+          <div
+            data-thq="thq-mobile-menu"
+            className="navbar-mobile-menu text-black"
+          >
             <div className="navbar-nav">
               <div className="navbar-top bg-gray-800 p-5 rounded-xl">
                 <img
@@ -46,16 +63,40 @@ const Navbar = (props) => {
                   src={props.imageSrc2}
                   className="navbar-logo"
                 />
-                <div data-thq="thq-close-menu" className="navbar-close-menu bg-gray-200 rounded-full p-1">
-                  <img src='https://icons.veryicon.com/png/o/miscellaneous/medium-thin-linear-icon/cross-23.png' className='w-6'></img>
+                <div
+                  data-thq="thq-close-menu"
+                  className="navbar-close-menu bg-gray-200 rounded-full p-1"
+                >
+                  <img
+                    src="https://icons.veryicon.com/png/o/miscellaneous/medium-thin-linear-icon/cross-23.png"
+                    className="w-6"
+                  ></img>
                 </div>
               </div>
               <nav className="navbar-links1 text-black">
-                <Link href='/' className="thq-body-small thq-link font-semibold">{props.link1}</Link>
-                <Link href='/about' className="thq-body-small thq-link font-semibold" >{props.link2}</Link>
-                <Link href='/contact' className="thq-body-small thq-link font-semibold" >{props.link3}</Link>
-                <Link href='/our-partners' className="navbar-link41 thq-body-small thq-link font-semibold" >
-                  {props.link4}
+                <Link
+                  href="/"
+                  className="thq-body-small thq-link font-semibold"
+                >
+                  {props.link1}
+                </Link>
+                <Link
+                  href="/about"
+                  className="thq-body-small thq-link font-semibold"
+                >
+                  {props.link2}
+                </Link>
+                <Link
+                  href="/contact"
+                  className="thq-body-small thq-link font-semibold"
+                >
+                  {props.link3}
+                </Link>
+                <Link
+                  href="/support"
+                  className="navbar-link41 thq-body-small thq-link font-semibold"
+                >
+                  Support
                 </Link>
               </nav>
             </div>
@@ -202,28 +243,28 @@ const Navbar = (props) => {
         `}
       </style>
     </>
-  )
-}
+  );
+};
 
 Navbar.defaultProps = {
-  link1: 'Home',
-  action2: '/services',
-  link2: 'About',
-  logoAlt: 'IT Recruiting Consultancy Firm',
-  imageSrc2: '/logo-200h.webp',
-  imageSrc: 'https://play.teleporthq.io/static/svg/default-img.svg',
-  action1: '/home',
-  imageAlt: 'image',
-  link4: 'Our Partners',
-  imageSrc1: 'https://play.teleporthq.io/static/svg/default-img.svg',
-  imageAlt1: 'image',
-  link3: 'Contact Us',
-  imageAlt2: 'image',
+  link1: "Home",
+  action2: "/services",
+  link2: "About",
+  logoAlt: "IT Recruiting Consultancy Firm",
+  imageSrc2: "/logo-200h.webp",
+  imageSrc: "https://play.teleporthq.io/static/svg/default-img.svg",
+  action1: "/home",
+  imageAlt: "image",
+  link4: "Our Partners",
+  imageSrc1: "https://play.teleporthq.io/static/svg/default-img.svg",
+  imageAlt1: "image",
+  link3: "Contact Us",
+  imageAlt2: "image",
   logoSrc:
-    'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/84ec08e8-34e9-42c7-9445-d2806d156403/fac575ac-7a41-484f-b7ac-875042de11f8?org_if_sml=1&force_format=original',
-  link5: 'Link5',
-  rootClassName: '',
-}
+    "https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/84ec08e8-34e9-42c7-9445-d2806d156403/fac575ac-7a41-484f-b7ac-875042de11f8?org_if_sml=1&force_format=original",
+  link5: "Link5",
+  rootClassName: "",
+};
 
 Navbar.propTypes = {
   link1: PropTypes.string,
@@ -242,6 +283,6 @@ Navbar.propTypes = {
   logoSrc: PropTypes.string,
   link5: PropTypes.string,
   rootClassName: PropTypes.string,
-}
+};
 
-export default Navbar
+export default Navbar;

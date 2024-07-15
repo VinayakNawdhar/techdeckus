@@ -26,7 +26,7 @@ const Footer = (props) => {
                   <Link href='/' className="thq-body-small">{props.link1}</Link>
                   <Link href='/about' className="thq-body-small">{props.link2}</Link>
                   <Link href='/contact' className="thq-body-small">{props.link3}</Link>
-                  <Link href='/our-partners' className="thq-body-small">{props.link4}</Link>
+                  <Link href='/our-partners' className="thq-body-small">Support</Link>
                 </div>
               </div>
               <div className="footer-column2">
@@ -34,11 +34,11 @@ const Footer = (props) => {
                   {props.column2Title}
                 </strong>
                 <div className="footer-footer-links1">
-                  <span className="thq-body-small">{props.link6}</span>
+                  {/* <span className="thq-body-small">{props.link6}</span> */}
                   <span className="thq-body-small">{props.link7}</span>
                   <span className="thq-body-small">{props.link8}</span>
                   <span className="thq-body-small">{props.link9}</span>
-                  <span className="thq-body-small">{props.link10}</span>
+                  {/* <span className="thq-body-small">{props.link10}</span> */}
                 </div>
               </div>
               <div className="footer-column3">

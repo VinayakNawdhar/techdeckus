@@ -75,7 +75,7 @@ const CTA = (props) => {
           }
           .cta-container1:hover {
             color: var(--dl-color-theme-neutral-light);
-            background-color: var(--dl-color-theme-neutral-dark);
+            background-color: #375b4c;
           }
           .cta-content {
             gap: var(--dl-space-space-oneandhalfunits);
